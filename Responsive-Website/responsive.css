@@ -1,0 +1,62 @@
+/* === For your Responsive CSS === */
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:600px) {
+
+    header {
+        grid-template-columns: 100%;
+
+    }
+
+    #nav a {
+        display: block;
+        background-color: orange;
+        text-align: center;
+        padding: 0.25rem;
+
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+    #splash {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        height: 10.7rem;
+        grid-column: 1/2;
+    }
+
+    main {
+        grid-template-columns: 100%;
+    }
+
+    #app {
+        grid-column: 1/2;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+
+    #social-media {
+        text-align: center;
+
+
+    }
+
+    .restaurant {
+        text-align: center;
+
+    }
+
+    #legal {
+
+        padding-bottom: 0.27rem;
+    }
+}
