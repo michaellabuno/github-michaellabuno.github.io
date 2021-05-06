@@ -1,0 +1,181 @@
+/* === Typography === */
+
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color: #cdcdcd;
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+
+}
+
+h2 {
+    font-size: 24pt;
+    font-weight: bold;
+
+}
+
+p {
+    overflow: hidden;
+
+}
+
+footer {
+    color: #ffffff;
+    font-size: 10pt;
+    font-style: oblique;
+    text-align: center
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#newbook {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+}
+
+/* === Background === */
+
+header {
+    background-color: #000000;
+
+}
+
+main {
+    background-color: #cdcdcd;
+
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
+footer {
+    background-color: #000000;
+
+}
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+}
+
+#ad {
+    background-color: #ff0000;
+}
+
+/* === Box Model === */
+
+#splash {
+    height: 400px;
+}
+
+nav {
+    padding: 10px;
+
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px;
+
+}
+
+#foodarticles {
+    padding-left: 30px;
+}
+
+article {
+    margin-bottom: 70px;
+}
+
+main {}
+
+/* === Layout === */
+
+.floatleft {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.overflow {
+    overflow: hidden;
+
+}
+
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin: auto;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+aside {
+    margin-left: 35px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px;
+}
+
+body {
+    padding-top: 175px;
+
+}
+
+#ad {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 25%;
+    padding: 20px;
+}
+
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
